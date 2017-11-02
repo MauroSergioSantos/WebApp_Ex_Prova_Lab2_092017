@@ -12,6 +12,7 @@ namespace WebApp_Ex_Prova_Lab2_092017.Models
         public int Capacidade { get; set; }
         public string Descricao { get; set; }
         public List<Sessao> Sessoes { get; set; }
+        public Localizacao Localizacao { get; set; }
 
     }
 }

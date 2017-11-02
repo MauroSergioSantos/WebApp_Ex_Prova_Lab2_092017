@@ -15,7 +15,7 @@ namespace WebApp_Ex_Prova_Lab2_092017.Models
         public Boolean Encerrada { get; set; }      
         public int SalaId { get; set; }
         public Sala Sala { get; set; }
-        public int IngressoId { get; set; }
+        public int? IngressoId { get; set; }
         public Ingresso Ingresso { get; set; }
         public int FilmeId { get; set; }
         public Filme Filme { get; set; }
